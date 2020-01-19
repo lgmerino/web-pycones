@@ -14,6 +14,7 @@
               <div class="col-md-12 main-title">
                 <img src="{% static "images/logos/piconesGR_horizontal.svg" %}" width="400px">
                 <h1>PyConES <span>Granada</span></h1>
+                <h2>Del 2 al 4 de octubre</h2>
               </div>
             </div>
           </div>
@@ -62,7 +63,7 @@
           <div class="card-body">
             <h3 class="card-title"><a href="{% url "info" %}">{% trans "El evento" %}</a></h3>
             <p class="card-text">
-              {% trans "PyConES es la conferencia de la comunidad Python española. PyConES se celebrará por séptima vez del 02 al 04 de octubre de 2020 en Granada, tras siete exitosas ediciones en Madrid, Zaragoza, Valencia, Almería, Cáceres, Málaga y Alicante, siguiendo el formato del evento mundial de PyCon." %}
+              {% trans "PyConES es la conferencia de la comunidad Python española. PyConES se celebrará por octava vez del 02 al 04 de octubre de 2020 en Granada, tras siete exitosas ediciones en Madrid, Zaragoza, Valencia, Almería, Cáceres, Málaga y Alicante, siguiendo el formato del evento mundial de PyCon." %}
             </p>
             {% chunk name="schedule_pdf" as schedule_pdf %}
             {% if schedule_pdf %}
